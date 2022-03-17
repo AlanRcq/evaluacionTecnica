@@ -8,3 +8,7 @@ let map = new mapboxgl.Map({
     zoom: 15,
     center: [LONGITUD_CENTRO, LATITUD_CENTRO]
 });
+
+
+
+
