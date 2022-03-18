@@ -16,6 +16,7 @@ $('#botonAgregar').click(function(){
         return;
     } else {
         agregarUbicacion();
+        map.easeTo({center: [inputCoordenadaX.value, inputCoordenadaY.value]});
     }
 })
 

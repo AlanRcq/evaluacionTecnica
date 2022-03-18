@@ -1,6 +1,6 @@
 #map{
     width: 1100px;
-    height: 460px;
+    height: 540px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
@@ -23,10 +23,10 @@ body{
 }
 
 #form{
-    background-color: #ffff;
+    background-color: #eeeeee;
     width: 60%;
     max-width: 325px;
-    padding: 0.5em 1em;
+    padding: 1em 1em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
     float: auto;
@@ -36,7 +36,7 @@ body{
 }
 
 .form__input{
+    background-color: white;
     border-color: blue;
-    background: none;
     outline: none;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Mapa</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./archivos/estilo.css">
 </head>
 <body>
     <div id="div">
@@ -12,7 +12,7 @@
             <label for="direccion">Dirección:   </label>
             <input class="form__input" type="text" name="direccion" id="direccion" placeholder="ej: Av. Eduardo Madero 1020, C1001 CABA"><br>
             <label for="numeroTel">Numero telefónico:   </label>
-            <input class="form__input" type="tel" name="numeroTel" id="numeroTel" placeholder="ej: 54 9 11 5272 0900"><br>
+            <input class="form__input" type="number" name="numeroTel" id="numeroTel" placeholder="ej: 54 9 11 5272 0900"><br>
             <label for="coordenadaX">Coordenada X:   </label>
             <input class="form__input" type="number" name="coordenadaX" id="coordenadaX" value="0" placeholder="0"><br>
             <label for="coordenadaY">Coordenada Y:   </label>
@@ -33,9 +33,9 @@
         crossorigin="anonymous">
     </script>
     <div id="map"></div>
-    <script src="./controladorBotonAgregar.js"></script>
+    <script src="./archivos/controladorBotonAgregar.js"></script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />  
-    <script src="./mapa.js"></script>
+    <script src="./archivos/mapa.js"></script>
 </body>
 </html>
