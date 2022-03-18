@@ -1,7 +1,12 @@
 #map{
-    width: 900px;
-    height: 600px;
+    width: 1100px;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border-radius: 10px;
 }
+
 .marker{
     background-image: url('./ubicacion.jpg');
     background-size: cover;
@@ -9,4 +14,29 @@
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#c657d8 0.5px, transparent 0.5px)
+}
+
+#form{
+    background-color: #ffff;
+    width: 60%;
+    max-width: 325px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    float: auto;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__input{
+    border-color: blue;
+    background: none;
+    outline: none;
 }
